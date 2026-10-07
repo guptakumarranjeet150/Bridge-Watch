@@ -10,8 +10,6 @@ build/
 frontend/storybook-static/
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 .env.sandbox
 
@@ -25,7 +23,6 @@ npm-debug.log*
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -55,3 +52,4 @@ contracts/soroban/test_snapshots/
 *.pem
 .cache/
 tmp/
+config.bat
